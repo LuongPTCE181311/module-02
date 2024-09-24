@@ -1,0 +1,41 @@
+.element-parent{
+    border: 3px solid red;
+}
+
+.element-child{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.element-a{
+    height: 100px;
+    background-color: aqua;
+}
+
+.element-b{
+    height: 150px;
+    background-color: brown;
+}
+
+.element-c{
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.element-a{
+    float: left; /*nó sẽ nằm bên trái */
+}
+
+.element-b{
+    float: right;
+}
+
+.element-c{
+    float: right;
+}
+
+.clear-both{
+    clear: both;
+}

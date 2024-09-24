@@ -1,0 +1,11 @@
+li{
+    color: red !important; /* Khi sử dụng !improtant thì nó là ưu tiên nhất*/
+}
+
+ol li{
+    color: aqua; /* nó sẽ có độ ưu tiên hơn li*/
+}
+
+ol li::first-letter{
+    color: blueviolet;  
+}
